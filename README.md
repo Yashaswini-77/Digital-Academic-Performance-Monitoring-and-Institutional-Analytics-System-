@@ -1,17 +1,18 @@
 # 🎓 Digital Academic Performance Monitoring & Institutional Analytics System
 
 <p align="center">
-  <strong>Transforming Academic Data into Actionable Institutional Intelligence</strong>
+  <strong>From Academic Data → Intelligent Insights → Personalized Mentorship → Better Outcomes</strong>
 </p>
 
 <p align="center">
-  A data-driven academic analytics platform designed to monitor student performance, identify learning gaps, evaluate academic trends, and provide institutions with actionable insights for better educational outcomes.
+  A data-driven academic intelligence platform developed for <strong>ABC Institution</strong> to monitor student performance, identify learning gaps, assess academic risk, intelligently assign suitable mentors, and track student improvement over time.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Academic%20Analytics-blue" alt="Project">
   <img src="https://img.shields.io/badge/Domain-EdTech-green" alt="Domain">
-  <img src="https://img.shields.io/badge/Analytics-Data%20Driven-orange" alt="Analytics">
+  <img src="https://img.shields.io/badge/Analytics-Data--Driven-orange" alt="Analytics">
+  <img src="https://img.shields.io/badge/Mentorship-Intelligent%20Matching-purple" alt="Mentorship">
   <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
 </p>
 
@@ -19,667 +20,981 @@
 
 ## 📌 Overview
 
-The **Digital Academic Performance Monitoring and Institutional Analytics System** is an intelligent academic analytics platform that helps educational institutions move from traditional academic record keeping to **data-driven decision making**.
+The **Digital Academic Performance Monitoring & Institutional Analytics System** is an academic intelligence platform designed specifically for **ABC Institution**.
 
-The system collects and analyzes academic information such as:
+Traditional academic systems mainly store marks, attendance, assignments, and examination results. However, storing academic data alone does not answer important questions such as:
 
-* Student marks and grades
-* Attendance
-* Subject-wise performance
-* Internal assessment scores
-* Semester results
-* Assignment performance
-* Academic progress
-* Class and department performance
+* Is a student's performance improving or declining?
+* Which subjects require attention?
+* Is the student academically at risk?
+* What are the student's major learning gaps?
+* Which mentor is most suitable for the student?
+* Is the assigned mentor actually improving the student's performance?
+* What academic trends are visible across classes, departments, and semesters?
 
-Using interactive dashboards and analytics, the platform enables **students, faculty, department administrators, and institutional management** to understand academic performance and take timely corrective actions.
+This system transforms raw academic data into **actionable academic intelligence**.
 
-> **Collect → Analyze → Visualize → Identify → Improve**
+The platform analyzes student performance, identifies academic risks and learning gaps, and uses a **data-driven mentor matching mechanism** to recommend the most suitable mentor based on the student's needs, mentor expertise, department, availability, and workload.
+
+> **The goal is not just to identify an academic problem — it is to connect the student with the right mentor and measure the outcome of that intervention.**
 
 ---
 
 # 🎯 Problem Statement
 
-Educational institutions generate large amounts of academic data every semester, but this data is often distributed across spreadsheets, documents, portals, and departmental systems.
+Educational institutions generate large amounts of academic data through:
 
-This creates several challenges:
-
-* Difficulty identifying academically weak students early
-* Lack of centralized academic analytics
-* Limited visibility into department-level performance
-* Manual preparation of academic reports
-* Difficulty identifying subject-wise learning gaps
-* Delayed intervention for at-risk students
-* Limited institutional-level insights
-* Lack of meaningful visual analytics
-
-The proposed system addresses these challenges by providing a **centralized academic monitoring and analytics platform**.
-
----
-
-# 💡 Proposed Solution
-
-The system provides a unified platform where academic data can be collected, processed, analyzed, and visualized.
-
-### Core workflow
-
-```text
-Academic Data
-      ↓
-Data Collection
-      ↓
-Data Validation & Processing
-      ↓
-Performance Analysis
-      ↓
-Analytics Engine
-      ↓
-Interactive Dashboards
-      ↓
-Performance Insights
-      ↓
-Early Intervention & Decision Making
-```
-
-The objective is not simply to display marks, but to convert academic data into **meaningful insights that can support educational decisions**.
-
----
-
-# 🚀 Key Features
-
-## 👨‍🎓 Student Performance Monitoring
-
-Track individual student performance across:
-
-* Subjects
 * Internal assessments
 * Semester examinations
 * Assignments
 * Attendance
+* Subject-wise marks
 * Academic progress
+* Previous semester results
 
-Students can understand their strengths, weaknesses, and improvement areas.
+However, this information is often distributed across different systems or maintained independently.
 
----
+As a result:
 
-## 📊 Academic Performance Dashboard
+* Students may not clearly understand their academic progress.
+* Learning gaps may be identified too late.
+* At-risk students may not receive timely guidance.
+* Mentors may be assigned manually without considering student-specific needs.
+* Faculty and coordinators may find it difficult to monitor large numbers of students.
+* Institutional management may lack meaningful academic intelligence for decision-making.
 
-A centralized dashboard provides a quick overview of important academic metrics.
+### 💡 Proposed Solution
 
-### Example KPIs
+The proposed system centralizes academic information and applies analytics to:
 
-| Metric               | Purpose                                  |
-| -------------------- | ---------------------------------------- |
-| 📈 Average Score     | Overall academic performance             |
-| 🎯 Pass Percentage   | Academic success rate                    |
-| 📚 Subject Average   | Subject-level performance                |
-| 👥 Class Performance | Compare class outcomes                   |
-| 🏆 Top Performers    | Identify high-performing students        |
-| ⚠️ At-Risk Students  | Identify students requiring intervention |
-| 📅 Attendance Rate   | Monitor attendance patterns              |
-| 📉 Performance Trend | Track academic progress                  |
+**Monitor → Analyze → Detect → Match → Mentor → Intervene → Track → Improve**
 
 ---
 
-# 🏫 Institutional Analytics
+# 🌟 Core Idea
 
-The platform can provide analytics at multiple organizational levels.
+The central concept of the project is **Data-Driven Student–Mentor Matching**.
+
+Instead of randomly or manually assigning a mentor to every student, the system analyzes the student's academic profile and determines what type of guidance is required.
+
+### Student Profile
+
+The system evaluates:
+
+* Academic performance
+* Attendance
+* Internal assessment
+* Assignment performance
+* Performance trends
+* Subject-wise weaknesses
+* Learning gaps
+* Academic risk level
+
+### Mentor Profile
+
+The system evaluates:
+
+* Department
+* Subject expertise
+* Experience
+* Current student workload
+* Maximum student capacity
+* Availability
+* Academic specialization
+
+The system then calculates a **Mentor Compatibility Score** and recommends the most suitable mentor.
+
+---
+
+# 🔄 Complete Academic Intelligence Cycle
 
 ```text
-Institution
-   │
-   ├── Departments
-   │      │
-   │      ├── Programs
-   │      │       │
-   │      │       ├── Classes
-   │      │       │      │
-   │      │       │      └── Students
-   │      │       │
-   │      │       └── Faculty
-   │      │
-   │      └── Subjects
-   │
-   └── Academic Years
+                    ABC INSTITUTION
+                           │
+                           ▼
+                    STUDENT DATA
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+          Marks        Attendance     Assessments
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                   ANALYTICS ENGINE
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+        Performance       Risk        Learning
+          Analysis      Detection       Gaps
+             │             │             │
+             └─────────────┼─────────────┘
+                           ▼
+                MENTOR MATCHING ENGINE
+                           │
+                           ▼
+                 COMPATIBILITY SCORE
+                           │
+                           ▼
+                  BEST-FIT MENTOR
+                           │
+                           ▼
+                   ADMIN APPROVAL
+                           │
+                           ▼
+                  MENTOR ASSIGNMENT
+                           │
+                           ▼
+                    GUIDANCE &
+                   INTERVENTION
+                           │
+                           ▼
+                 PERFORMANCE TRACKING
+                           │
+                 ┌─────────┴─────────┐
+                 ▼                   ▼
+              IMPROVED            NOT IMPROVED
+                 │                   │
+                 ▼                   ▼
+             Continue          Re-evaluate
+                              Intervention
 ```
-
-This enables management to analyze academic performance across:
-
-* Institution
-* School / Faculty
-* Department
-* Program
-* Batch
-* Class
-* Subject
-* Student
 
 ---
 
-# ⚠️ At-Risk Student Identification
+# ✨ Key Features
 
-One of the major objectives of the platform is to identify students who may require academic support.
+## 👨‍🎓 Student Performance Monitoring
 
-Students can be flagged based on factors such as:
+Students receive a personalized academic dashboard containing:
 
-* Low examination scores
-* Consistently declining performance
-* Low attendance
-* Poor assignment performance
-* Multiple failed subjects
-* Significant performance deviations
+* Overall performance
+* CGPA / percentage
+* Subject-wise marks
+* Attendance
+* Internal assessment
+* Assignment performance
+* Semester trends
+* Strengths and weaknesses
+* Academic risk status
+* Personalized recommendations
+
+---
+
+## 📊 Academic Analytics
+
+The system converts raw academic records into meaningful insights.
+
+### Performance Analysis
+
+Compare:
+
+* Student vs. class average
+* Student vs. department average
+* Current vs. previous semester
+* Subject-wise performance
+* Assessment-wise performance
+
+### Trend Analysis
+
+Identify whether a student's performance is:
+
+* 📈 Improving
+* ➡️ Stable
+* 📉 Declining
+
+---
+
+# 🚨 Academic Risk Detection
+
+The system calculates an academic risk profile using multiple factors.
+
+### Example Factors
+
+```text
+Academic Performance
+        +
+Attendance
+        +
+Internal Assessment
+        +
+Assignment Performance
+        +
+Performance Trend
+        ↓
+   Risk Analysis
+```
+
+### Risk Levels
+
+| Risk Level | Meaning                              |
+| ---------- | ------------------------------------ |
+| 🟢 Low     | Student is performing consistently   |
+| 🟡 Medium  | Performance requires monitoring      |
+| 🔴 High    | Student requires timely intervention |
+
+A high-risk student can be automatically prioritized for mentor assignment and academic intervention.
+
+---
+
+# 🧩 Learning Gap Detection
+
+The system does more than identify low marks.
+
+It attempts to identify **where the student is struggling**.
 
 ### Example
 
 ```text
 Student Performance
-        │
-        ├── Attendance ↓
-        ├── Internal Marks ↓
-        ├── Assignment Score ↓
-        └── Semester Performance ↓
-                    │
-                    ▼
-             Risk Identification
-                    │
-                    ▼
-           Faculty Intervention
-                    │
-                    ▼
-             Performance Review
+
+DSA
+├── Arrays          82%
+├── Linked Lists    78%
+├── Trees           61%
+├── Graphs          48%
+└── Dynamic Prog.   42%
 ```
+
+The system can identify:
+
+> **Potential Learning Gap: Graph Algorithms and Dynamic Programming**
+
+This information becomes an important input for mentor matching.
 
 ---
 
-# 📈 Performance Trend Analysis
+# 🤝 Intelligent Mentor Assignment
 
-The system can visualize academic performance over time.
+This is the core differentiating feature of the system.
+
+Instead of assigning mentors randomly, the system recommends a mentor based on multiple factors.
+
+### Student Factors
+
+* Department
+* Program
+* Year / Semester
+* Academic performance
+* Risk level
+* Learning gaps
+* Attendance
+* Subjects requiring improvement
+
+### Mentor Factors
+
+* Department
+* Subject expertise
+* Experience
+* Availability
+* Maximum capacity
+* Current workload
+* Academic specialization
+
+---
+
+# 🧠 Mentor Compatibility Score
+
+A weighted scoring mechanism can be used to calculate mentor suitability.
+
+| Matching Factor             |   Weight |
+| --------------------------- | -------: |
+| Department Match            |      25% |
+| Subject / Expertise Match   |      30% |
+| Academic Risk Compatibility |      15% |
+| Year / Program Match        |      10% |
+| Mentor Availability         |      15% |
+| Workload Compatibility      |       5% |
+| **Total**                   | **100%** |
+
+### Example
+
+```text
+Student:
+Department: CSE
+Weak Area: DBMS
+Risk Level: High
+
+Mentor A
+Department: CSE
+Expertise: DBMS
+Availability: High
+Current Load: Low
+
+Compatibility Score: 94%
+```
+
+The system recommends Mentor A because the mentor is a strong match for the student's academic requirements.
+
+---
+
+# ⚖️ Workload-Aware Assignment
+
+The system should not overload a high-performing mentor simply because they have a high compatibility score.
 
 Example:
 
 ```text
-Semester 1 → 68%
-Semester 2 → 72%
-Semester 3 → 76%
-Semester 4 → 81%
+Mentor A
+Maximum Capacity: 20
+Current Students: 20
+Available Slots: 0
 ```
 
-This helps identify whether a student's academic performance is:
+Even if Mentor A has a 95% compatibility score, the system should consider other suitable mentors.
 
-* Improving
-* Declining
-* Stable
-* Irregular
+This ensures:
 
-Similar analysis can be performed at class, department, and institutional levels.
-
----
-
-# 📚 Subject-Wise Analytics
-
-Subject-level analysis helps faculty identify courses where students are struggling.
-
-Example:
-
-| Subject           | Average | Pass Rate | Status       |
-| ----------------- | ------: | --------: | ------------ |
-| Data Structures   |     78% |       91% | 🟢 Strong    |
-| Database Systems  |     71% |       84% | 🟢 Good      |
-| Operating Systems |     62% |       69% | 🟡 Attention |
-| Mathematics       |     54% |       58% | 🔴 Critical  |
-
-This allows departments to investigate:
-
-* Difficult subjects
-* Low-performing batches
-* High failure rates
-* Curriculum challenges
-* Need for additional academic support
+* Balanced mentor distribution
+* Better mentor availability
+* Reduced workload
+* Sustainable student guidance
 
 ---
 
-# 👥 Role-Based Access
+# 🔐 Semi-Automated Assignment
 
-The system can support different user roles with appropriate access levels.
+The system recommends the best mentor, but the final assignment can remain under institutional control.
 
-### 👨‍🎓 Student
+```text
+Analytics Engine
+       ↓
+Mentor Ranking
+       ↓
+Recommended Mentor
+       ↓
+HOD / Coordinator / Admin
+       ↓
+Approve / Modify
+       ↓
+Final Mentor Assignment
+```
 
-* View personal performance
-* Track academic progress
-* View subject-wise scores
-* Monitor attendance
-* Identify weak subjects
-* View performance trends
+This provides both:
 
-### 👨‍🏫 Faculty
+**Automation + Human Oversight**
 
-* Monitor student performance
-* Analyze subject results
-* Identify weak students
-* Track attendance
-* View class analytics
-* Generate academic reports
-
-### 🏢 Department Administrator
-
-* Monitor department performance
-* Compare classes
-* Analyze subjects
-* Track faculty/course outcomes
-* Identify performance trends
-
-### 👔 Institutional Management
-
-* Institution-wide analytics
-* Department comparison
-* Academic KPIs
-* Performance trends
-* Strategic decision support
-* Institutional reports
+which makes the system more practical for real institutional deployment.
 
 ---
 
-# 📊 Analytics & Visualization
+# 👥 User Roles
 
-The dashboard can provide visual analytics using:
+Although **students are the primary end users**, the platform contains authorized academic roles for managing and supporting the system.
 
-* 📊 Bar Charts
-* 📈 Line Charts
-* 🥧 Pie / Donut Charts
-* 📉 Performance Trends
-* 🎯 KPI Cards
-* 🔥 Heatmaps
-* 📋 Analytical Tables
-* 🏆 Ranking Boards
+| Role                    | Responsibility                                      |
+| ----------------------- | --------------------------------------------------- |
+| 👨‍🎓 Student           | View performance and receive guidance               |
+| 👨‍🏫 Faculty           | Enter academic data and monitor students            |
+| 🤝 Mentor / Coordinator | Guide assigned students and track interventions     |
+| 👨‍💼 HOD               | Monitor department-level performance                |
+| 🏛️ Administrator       | Manage institution, users, and system configuration |
 
-### Example dashboard structure
+---
+
+# 👨‍🎓 Student Dashboard
+
+A student's dashboard can provide:
 
 ```text
 ┌─────────────────────────────────────────────┐
-│        INSTITUTIONAL OVERVIEW               │
-├────────────┬────────────┬───────────────────┤
-│ Avg Score  │ Pass Rate  │ Attendance        │
-│   72.8%    │   86.4%    │    91.2%         │
-├────────────┴────────────┴───────────────────┤
+│              STUDENT DASHBOARD              │
+├─────────────────────────────────────────────┤
 │                                             │
-│        Academic Performance Trend           │
+│ CGPA        Attendance       Risk Level     │
+│ 8.42           87%             🟢 LOW       │
 │                                             │
-├──────────────────────┬──────────────────────┤
-│ Department Performance│ At-Risk Students     │
-│                      │                      │
-│     Analytics        │      Alerts          │
-└──────────────────────┴──────────────────────┘
+├─────────────────────────────────────────────┤
+│ SUBJECT PERFORMANCE                         │
+│                                             │
+│ Java             █████████░ 88%             │
+│ DSA              █████████░ 85%             │
+│ DBMS             ████████░░ 79%             │
+│ Networks         ██████░░░░ 64%             │
+│                                             │
+├─────────────────────────────────────────────┤
+│ PERFORMANCE TREND                           │
+│                                             │
+│ Semester 1 → Semester 2 → Semester 3       │
+│    7.4          7.8             8.2         │
+│                                             │
+├─────────────────────────────────────────────┤
+│ ACADEMIC INSIGHTS                           │
+│                                             │
+│ ⚠ Networks requires attention              │
+│ ↑ DSA performance improved by 12%           │
+│ ✓ Attendance is above class average         │
+│                                             │
+├─────────────────────────────────────────────┤
+│ ASSIGNED MENTOR                             │
+│                                             │
+│ Dr. Arun                                     │
+│ Expertise: DBMS, SQL                        │
+│ Match Score: 94%                             │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-# 🧠 Intelligent Insights
+# 🤝 Mentor / Coordinator Dashboard
 
-The platform can go beyond simple reporting by generating actionable insights.
+The mentor can monitor assigned students.
 
-### Example insights
+### Dashboard Metrics
 
-> 📈 **Performance Insight:**
-> The Computer Science department showed an 8.4% improvement in average semester performance.
+```text
+Total Assigned Students
+        ↓
+Low Risk
+        ↓
+Medium Risk
+        ↓
+High Risk
+        ↓
+Students Improving
+        ↓
+Students Requiring Intervention
+```
 
-> ⚠️ **Risk Insight:**
-> 18 students have both attendance below the defined threshold and declining academic performance.
+### Example
 
-> 📚 **Subject Insight:**
-> Mathematics has the highest failure rate among the current semester subjects.
+```text
+Mentor Dashboard
 
-> 🎯 **Intervention Insight:**
-> Students identified as academically at-risk can be prioritized for faculty mentoring.
+Assigned Students      18
+Low Risk                10
+Medium Risk              5
+High Risk                3
+Improving                 7
+Interventions Active     4
+```
+
+The mentor can:
+
+* View assigned students
+* Review academic history
+* View risk indicators
+* Identify learning gaps
+* Record mentoring sessions
+* Create intervention plans
+* Track student progress
+* Update intervention status
 
 ---
 
-# 🔍 Advanced Analytics
+# 🔄 Intervention Management
 
-The system can be extended with advanced analytical capabilities such as:
+Mentor assignment is only the beginning.
 
-### Student Performance Prediction
-
-Use historical academic data to estimate future performance.
+The system tracks what happens after assignment.
 
 ```text
-Historical Academic Data
-          ↓
-Feature Engineering
-          ↓
-Machine Learning Model
-          ↓
-Performance Prediction
-          ↓
-Risk Classification
+Student Identified
+        ↓
+Mentor Assigned
+        ↓
+Problem Identified
+        ↓
+Intervention Planned
+        ↓
+Guidance Provided
+        ↓
+Progress Monitored
+        ↓
+Performance Re-evaluated
 ```
 
-Possible prediction categories:
+### Example
 
-* 🟢 Low Risk
-* 🟡 Moderate Risk
-* 🔴 High Risk
+```text
+Student: ABC23041
+
+Issue:
+Low attendance + weak DBMS performance
+
+Intervention:
+DBMS remedial sessions
+
+Mentor:
+Dr. Arun
+
+Status:
+In Progress
+
+Previous Performance:
+58%
+
+Current Performance:
+67%
+
+Improvement:
++9%
+```
+
+This allows the institution to measure whether mentoring is actually effective.
 
 ---
 
-# 🛡️ Academic Early Warning System
+# 🏛️ Institutional Analytics
 
-The platform can act as an early-warning mechanism.
+Authorized institutional users can access high-level academic intelligence.
 
-Instead of waiting until the end of a semester:
+### Institutional KPIs
+
+* Total students
+* Total faculty
+* Department performance
+* Average attendance
+* Average academic performance
+* Pass percentage
+* At-risk students
+* Mentor workload
+* Intervention success rate
+* Semester performance trends
+
+### Example
 
 ```text
-Traditional Approach
-       ↓
-Semester Examination
-       ↓
-Poor Result
-       ↓
-Intervention
+ABC INSTITUTION
+
+Students             2,840
+Departments              8
+Faculty                 142
+Average Attendance      86%
+Average Pass Rate       91%
+Students At Risk       147
 ```
-
-The proposed approach:
-
-```text
-Continuous Monitoring
-       ↓
-Performance Analysis
-       ↓
-Early Warning
-       ↓
-Faculty Intervention
-       ↓
-Student Support
-       ↓
-Improved Outcome
-```
-
-This shifts academic management from **reactive monitoring to proactive intervention**.
 
 ---
 
-# 🗂️ Major Modules
+# 📈 Department Comparison
 
-```text
-Digital Academic Performance Monitoring System
-│
-├── 🔐 Authentication & Authorization
-│
-├── 👨‍🎓 Student Management
-│
-├── 👨‍🏫 Faculty Management
-│
-├── 🏫 Department Management
-│
-├── 📚 Course & Subject Management
-│
-├── 📝 Marks Management
-│
-├── 📅 Attendance Management
-│
-├── 📊 Performance Analytics
-│
-├── ⚠️ At-Risk Student Detection
-│
-├── 📈 Trend Analysis
-│
-├── 🧠 Intelligent Insights
-│
-├── 📑 Report Generation
-│
-└── ⚙️ Institutional Administration
-```
+Institutional management can compare departments and identify trends.
+
+| Department | Average Performance | Pass Rate |
+| ---------- | ------------------: | --------: |
+| CSE        |                 82% |       94% |
+| ECE        |                 78% |       90% |
+| EEE        |                 75% |       88% |
+| MECH       |                 72% |       85% |
+
+This enables data-driven institutional decision-making.
 
 ---
 
 # 🏗️ System Architecture
 
 ```text
-                    ┌──────────────────────┐
-                    │      Users           │
-                    │ Students / Faculty   │
-                    │ Admin / Management   │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │   Presentation Layer │
-                    │   Web Dashboard      │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │    Backend / API     │
-                    │ Business Logic       │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌──────────────┐
-       │ Academic DB │  │ Analytics    │  │ Prediction   │
-       │             │  │ Engine       │  │ Engine       │
-       └─────────────┘  └─────────────┘  └──────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Analytics Dashboard  │
-                    │ Reports & Insights   │
-                    └──────────────────────┘
+┌──────────────────────────────────────────────┐
+│                PRESENTATION LAYER            │
+│                                              │
+│ React.js / Web Application                   │
+│ Student │ Faculty │ Mentor │ HOD │ Admin    │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                  API LAYER                   │
+│                                              │
+│ Authentication │ Student │ Academic │ Mentor│
+│ Analytics │ Intervention │ Administration    │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│              ANALYTICS ENGINE                │
+│                                              │
+│ Performance Analysis                         │
+│ Risk Detection                               │
+│ Learning Gap Detection                       │
+│ Mentor Compatibility                         │
+│ Trend Analysis                               │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│                 DATA LAYER                   │
+│                                              │
+│ PostgreSQL / Relational Database             │
+│ Students │ Faculty │ Marks │ Attendance      │
+│ Subjects │ Mentors │ Assignments             │
+│ Interventions │ Performance History          │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+# 🔄 System Workflow
+
+```text
+1. Student academic data is collected
+              ↓
+2. Data is validated and stored
+              ↓
+3. Analytics engine processes the data
+              ↓
+4. Student performance is evaluated
+              ↓
+5. Academic risk is calculated
+              ↓
+6. Learning gaps are identified
+              ↓
+7. Eligible mentors are identified
+              ↓
+8. Mentor compatibility scores are calculated
+              ↓
+9. Best-fit mentor is recommended
+              ↓
+10. Authorized staff approve the assignment
+              ↓
+11. Student receives mentor information
+              ↓
+12. Mentor provides academic guidance
+              ↓
+13. Intervention progress is tracked
+              ↓
+14. Student performance is re-evaluated
 ```
 
 ---
 
 # 🛠️ Technology Stack
 
-> Update this section according to the technologies used in your implementation.
+The exact stack can be adapted based on implementation requirements.
 
 ### Frontend
 
+* React.js
 * HTML5
 * CSS3
 * JavaScript
-* React.js / Angular / Vue.js *(if applicable)*
+* Chart.js / Recharts
 
 ### Backend
 
-* Java / Spring Boot
-* Python / FastAPI
-* Node.js / Express.js *(as applicable)*
+* Python
+* FastAPI
+* REST APIs
 
 ### Database
 
-* MySQL / PostgreSQL / MongoDB
+* PostgreSQL
+
+### Authentication
+
+* JWT Authentication
+* Role-Based Access Control
 
 ### Analytics
 
 * Python
 * Pandas
 * NumPy
-* Scikit-learn
-* Matplotlib / Plotly
+* Scikit-learn *(for future predictive analytics)*
 
-### Authentication
-
-* JWT
-* Role-Based Access Control
-* Secure Password Hashing
-
-### Development Tools
+### Development & Deployment
 
 * Git
 * GitHub
-* VS Code / IntelliJ IDEA
-* Postman
+* Docker *(optional)*
+* Cloud deployment *(optional)*
 
 ---
 
-# 📁 Suggested Project Structure
+# 🗄️ Core Database Entities
 
 ```text
-Digital-Academic-Performance-Monitoring/
+Users
+ │
+ ├── Students
+ ├── Faculty
+ ├── Mentors
+ ├── HODs
+ └── Administrators
+
+Academic Data
+ │
+ ├── Departments
+ ├── Programs
+ ├── Subjects
+ ├── Marks
+ ├── Attendance
+ ├── Assignments
+ └── Semester Results
+
+Analytics
+ │
+ ├── Performance Profiles
+ ├── Risk Profiles
+ ├── Learning Gaps
+ └── Performance Trends
+
+Mentorship
+ │
+ ├── Mentor Profiles
+ ├── Mentor Assignments
+ ├── Compatibility Scores
+ ├── Interventions
+ └── Progress Tracking
+```
+
+---
+
+# 🔐 Security & Access Control
+
+The system uses **Role-Based Access Control (RBAC)**.
+
+### Student
+
+Can access:
+
+```text
+Own academic data
+Own analytics
+Own mentor information
+Own recommendations
+```
+
+### Faculty
+
+Can access:
+
+```text
+Assigned classes
+Assigned subjects
+Academic data
+Student performance
+```
+
+### Mentor / Coordinator
+
+Can access:
+
+```text
+Assigned students
+Student academic profiles
+Risk information
+Learning gaps
+Interventions
+```
+
+### HOD
+
+Can access:
+
+```text
+Department analytics
+Faculty performance
+Student trends
+Risk statistics
+```
+
+### Administrator
+
+Can manage:
+
+```text
+Users
+Departments
+Subjects
+Mentors
+Academic configuration
+System settings
+```
+
+---
+
+# 🚨 Important Design Principle
+
+The system follows the principle:
+
+> **"Access should be based on responsibility, not simply on user identity."**
+
+A mentor should only access students assigned to them.
+
+A faculty member should only access relevant academic records.
+
+A student should only access their own academic information.
+
+This protects academic data and maintains institutional privacy.
+
+---
+
+# 📊 Key Performance Indicators
+
+The system can track:
+
+### Student KPIs
+
+* CGPA
+* Percentage
+* Attendance
+* Subject performance
+* Assessment performance
+* Improvement percentage
+* Academic risk score
+
+### Mentor KPIs
+
+* Number of assigned students
+* Current workload
+* Intervention count
+* Student improvement rate
+* Intervention success rate
+
+### Institutional KPIs
+
+* Average academic performance
+* Pass percentage
+* Attendance rate
+* At-risk student percentage
+* Department performance
+* Mentor utilization
+* Intervention success rate
+
+---
+
+# 🔮 Future Enhancements
+
+The platform can later be extended with advanced AI/ML capabilities.
+
+### 🤖 Predictive Performance
+
+Predict future academic performance using historical data.
+
+### 🔮 Early Warning System
+
+Predict students who may become academically at risk before their performance drops significantly.
+
+### 🧠 AI-Based Recommendations
+
+Generate personalized learning recommendations based on student weaknesses.
+
+### 🎯 Advanced Mentor Matching
+
+Use machine learning to learn from previous mentor-student outcomes and improve mentor recommendations.
+
+### 📱 Mobile Application
+
+Provide students and mentors with mobile access.
+
+### 🔔 Smart Notifications
+
+Send alerts for:
+
+* Attendance shortage
+* Declining performance
+* Upcoming assessments
+* Mentor interventions
+* Academic milestones
+
+### 📈 Outcome Prediction
+
+Analyze whether a particular intervention is likely to improve student performance.
+
+---
+
+# 🎯 Project Objectives
+
+The major objectives of the system are:
+
+1. Centralize academic information.
+2. Monitor student academic performance.
+3. Identify learning gaps.
+4. Detect academically at-risk students.
+5. Provide personalized academic insights.
+6. Intelligently match students with suitable mentors.
+7. Balance mentor workload.
+8. Support timely academic intervention.
+9. Track the effectiveness of mentoring.
+10. Provide institutional-level academic intelligence.
+
+---
+
+# 💡 What Makes This Project Different?
+
+Traditional academic systems:
+
+```text
+Store Data
+   ↓
+Display Marks
+```
+
+Our proposed system:
+
+```text
+Collect Data
+     ↓
+Analyze Data
+     ↓
+Identify Problems
+     ↓
+Identify Learning Gaps
+     ↓
+Assess Academic Risk
+     ↓
+Find Suitable Mentor
+     ↓
+Balance Mentor Workload
+     ↓
+Assign Mentor
+     ↓
+Provide Intervention
+     ↓
+Track Improvement
+     ↓
+Generate Institutional Insights
+```
+
+### 🚀 In one line:
+
+> **The system moves from passive academic record keeping to proactive, data-driven academic intervention.**
+
+---
+
+# 📂 Suggested Project Structure
+
+```text
+academic-analytics-system/
 │
 ├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── assets/
-│   └── utils/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── dashboards/
+│   │   ├── services/
+│   │   └── utils/
+│   └── package.json
 │
 ├── backend/
-│   ├── controllers/
-│   ├── services/
-│   ├── repositories/
-│   ├── models/
-│   ├── middleware/
-│   └── config/
-│
-├── analytics/
-│   ├── data_processing/
-│   ├── analysis/
-│   ├── prediction/
-│   └── visualization/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   ├── analytics/
+│   │   ├── mentor_matching/
+│   │   └── main.py
+│   └── requirements.txt
 │
 ├── database/
-│   ├── schema/
-│   └── seed_data/
+│   ├── schema.sql
+│   ├── seed.sql
+│   └── migrations/
 │
 ├── docs/
 │   ├── architecture/
+│   ├── diagrams/
 │   └── screenshots/
 │
 ├── tests/
 │
 ├── .env.example
 ├── .gitignore
-└── README.md
+├── README.md
+└── LICENSE
 ```
-
----
-
-# 🔐 Security
-
-Security is an important component of an academic analytics platform.
-
-Potential security measures include:
-
-* JWT-based authentication
-* Role-based authorization
-* Password hashing
-* Input validation
-* API authentication
-* Secure database access
-* Environment variables for credentials
-* Protection against unauthorized academic-data access
-
-> Academic information should be accessible only to authorized users based on their role and permissions.
-
----
-
-# 📑 Reports
-
-The system can generate reports such as:
-
-* Student Performance Report
-* Subject Performance Report
-* Class Performance Report
-* Department Performance Report
-* Semester Result Analysis
-* Attendance Report
-* At-Risk Student Report
-* Institutional Performance Report
-
-Reports can be extended to support downloadable formats such as:
-
-* PDF
-* Excel
-* CSV
-
----
-
-# 🎯 Objectives
-
-### Primary Objectives
-
-* Centralize academic performance information
-* Automate academic performance analysis
-* Provide real-time academic insights
-* Identify students requiring intervention
-* Reduce manual reporting
-* Improve institutional decision-making
-
-### Secondary Objectives
-
-* Compare department performance
-* Analyze subject difficulty
-* Monitor academic trends
-* Improve faculty intervention
-* Support data-driven academic planning
-
----
-
-# 🌟 Advantages
-
-| Traditional Academic Monitoring | Proposed System        |
-| ------------------------------- | ---------------------- |
-| Manual analysis                 | Automated analytics    |
-| Spreadsheet dependent           | Centralized platform   |
-| Reactive intervention           | Early intervention     |
-| Limited visualization           | Interactive dashboards |
-| Difficult comparison            | Multi-level comparison |
-| Delayed reports                 | Faster reporting       |
-| Raw academic data               | Actionable insights    |
-
----
-
-# 🔮 Future Enhancements
-
-The system can be expanded with advanced features:
-
-* 🤖 AI-powered academic recommendations
-* 📈 Machine-learning-based performance prediction
-* 🚨 Automated early-warning notifications
-* 💬 AI academic assistant
-* 📱 Mobile application
-* 📧 Automated email notifications
-* 📊 Advanced institutional benchmarking
-* 🔎 Learning-gap detection
-* 🧠 Personalized student recommendations
-* 📚 Course recommendation system
-* 🔗 Integration with existing ERP/LMS systems
-* ☁️ Cloud deployment
-* 📡 Real-time analytics
-* 📄 Automated accreditation reports
-
----
-
-# 📸 Screenshots
-
-Add your application screenshots here.
-
-### 🏠 Dashboard
-
-```text
-docs/screenshots/dashboard.png
-```
-
-### 📊 Student Analytics
-
-```text
-docs/screenshots/student-analytics.png
-```
-
-### 🏫 Institutional Analytics
-
-```text
-docs/screenshots/institutional-analytics.png
-```
-
-### ⚠️ At-Risk Students
-
-```text
-docs/screenshots/risk-analysis.png
-```
-
-> **Tip:** For a professional GitHub repository, include 4–6 high-quality screenshots showing the dashboard, analytics, student profile, reports, and administrative modules.
 
 ---
 
@@ -688,223 +1003,268 @@ docs/screenshots/risk-analysis.png
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Digital-Academic-Performance-Monitoring.git
+git clone https://github.com/your-username/academic-performance-analytics.git
 
-cd Digital-Academic-Performance-Monitoring
+cd academic-performance-analytics
 ```
 
-## 2. Configure Environment Variables
-
-Create a `.env` file:
-
-```env
-DATABASE_URL=your_database_url
-JWT_SECRET=your_secret_key
-API_URL=your_api_url
-```
-
-Never commit sensitive credentials to GitHub.
-
-## 3. Install Dependencies
-
-Use the appropriate commands for your technology stack.
-
-Example:
+## 2. Backend Setup
 
 ```bash
-npm install
+cd backend
+
+python -m venv venv
 ```
 
-or:
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 4. Configure Database
+Start the backend:
 
-Create the required database and execute the schema scripts from:
+```bash
+uvicorn app.main:app --reload
+```
+
+---
+
+## 3. Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🧪 Example Mentor Assignment
+
+### Student
 
 ```text
-database/schema/
+Student ID: ABC23041
+Department: CSE
+Performance: 58%
+Attendance: 67%
+Risk: HIGH
+Learning Gap: DBMS
 ```
 
-## 5. Start the Application
-
-Start the backend and frontend according to your project configuration.
-
----
-
-# 🧪 Testing
-
-The project should include testing for:
-
-* Authentication
-* Authorization
-* Student management
-* Marks management
-* Attendance management
-* Analytics calculations
-* API endpoints
-* Database operations
-* Performance calculations
-* Risk identification
-
-Example:
-
-```bash
-npm test
-```
-
-or:
-
-```bash
-pytest
-```
-
----
-
-# 📊 Example Use Case
-
-### Scenario
-
-A department has **500 students**.
-
-The system analyzes:
+### Available Mentors
 
 ```text
-Attendance
-    +
-Internal Marks
-    +
-Assignment Scores
-    +
-Semester Results
-    +
-Historical Performance
+Mentor A
+Department: CSE
+Expertise: DBMS
+Capacity: Available
+Compatibility: 94%
+
+Mentor B
+Department: CSE
+Expertise: DSA
+Capacity: Available
+Compatibility: 81%
+
+Mentor C
+Department: ECE
+Expertise: Networks
+Capacity: Available
+Compatibility: 63%
 ```
 
-The analytics engine identifies:
+### System Recommendation
 
 ```text
-500 Students
-     ↓
-420 Normal
- 52 Need Attention
- 28 High Risk
+Recommended Mentor: Mentor A
+Compatibility Score: 94%
+Reason:
+
+✓ Same Department
+✓ Relevant Subject Expertise
+✓ Suitable for Student Risk Level
+✓ Available Capacity
+✓ Suitable Academic Profile
 ```
 
-Faculty can then prioritize the 28 high-risk students for mentoring and intervention.
-
-This allows institutions to focus their resources where they can have the **highest academic impact**.
+The administrator can then **approve or modify the assignment**.
 
 ---
 
-# 🌍 Impact
+# 📈 Measuring Mentorship Success
 
-The system supports the transition from:
+The system doesn't stop after mentor assignment.
 
-> **Data Collection → Data Understanding → Data-Driven Action**
+It compares student performance before and after intervention.
 
-It can help institutions:
+### Example
 
-* Improve student outcomes
-* Reduce academic failures
-* Detect performance problems earlier
-* Improve mentoring effectiveness
-* Strengthen academic planning
-* Improve institutional visibility
-* Reduce manual administrative workload
-
----
-
-# 🏆 Why This Project Matters
-
-Academic data is valuable only when it can support better decisions.
-
-This project transforms scattered academic records into a structured analytics ecosystem that enables institutions to answer important questions:
-
-> **Who is performing well?**
-
-> **Who needs support?**
-
-> **Which subjects require attention?**
-
-> **Which departments are improving?**
-
-> **Where are academic gaps occurring?**
-
-> **What actions should be taken next?**
-
-The goal is to build an **intelligent academic decision-support system**, not just another student management application.
-
----
-
-# 👨‍💻 Developer
-
-**Sivaprakash**
-
-Passionate about building technology-driven solutions in:
-
-* Software Development
-* Data Analytics
-* Artificial Intelligence
-* Educational Technology
-* Full-Stack Development
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/AmazingFeature
+```text
+Before Mentorship
+Performance: 58%
+Attendance: 67%
+Risk: HIGH
+       ↓
+Mentor Assigned
+       ↓
+Intervention
+       ↓
+After 8 Weeks
+Performance: 74%
+Attendance: 82%
+Risk: LOW
 ```
 
-3. Commit your changes
+### Result
 
-```bash
-git commit -m "Add AmazingFeature"
+```text
+Performance Improvement = +16%
+Attendance Improvement  = +15%
+Risk Level              = HIGH → LOW
 ```
 
-4. Push the branch
+This creates measurable evidence of the effectiveness of the mentorship program.
 
-```bash
-git push origin feature/AmazingFeature
+---
+
+# 🎓 Academic Impact
+
+The proposed system can help ABC Institution:
+
+* Improve student academic awareness
+* Detect struggling students earlier
+* Provide personalized mentoring
+* Improve mentor allocation
+* Reduce mentor workload imbalance
+* Support evidence-based academic decisions
+* Improve intervention tracking
+* Understand department-level academic trends
+* Build a culture of data-driven education
+
+---
+
+# 🏆 Project Vision
+
+> **To transform ABC Institution into a data-driven academic environment where every student's performance is continuously understood, every academic risk is identified early, and every student can receive guidance from the right mentor at the right time.**
+
+---
+
+# 🧭 Project Roadmap
+
+```text
+Phase 01 ─ Foundation
+           ├── Database
+           ├── Authentication
+           └── Role Management
+
+Phase 02 ─ Academic Management
+           ├── Students
+           ├── Subjects
+           ├── Marks
+           ├── Attendance
+           └── Assessments
+
+Phase 03 ─ Student Analytics
+           ├── Performance
+           ├── Trends
+           ├── Risk
+           └── Learning Gaps
+
+Phase 04 ─ Mentor Intelligence
+           ├── Mentor Profiles
+           ├── Compatibility Score
+           ├── Workload Balancing
+           └── Mentor Assignment
+
+Phase 05 ─ Intervention
+           ├── Mentoring
+           ├── Action Plans
+           ├── Follow-up
+           └── Progress Tracking
+
+Phase 06 ─ Institutional Analytics
+           ├── Department KPIs
+           ├── Academic Trends
+           ├── Risk Statistics
+           └── Institutional Reports
+
+Phase 07 ─ Advanced Intelligence
+           ├── Predictive Analytics
+           ├── AI Recommendations
+           └── ML-Based Mentor Matching
 ```
 
-5. Open a Pull Request
+---
+
+# 👨‍💻 Project Summary
+
+### **Project Name**
+
+**Digital Academic Performance Monitoring & Institutional Analytics System**
+
+### **Institution**
+
+**ABC Institution**
+
+### **Primary End Users**
+
+**Students**
+
+### **Supporting Academic Users**
+
+**Faculty, Mentors/Coordinators, HODs, Administrators**
+
+### **Core Innovation**
+
+**Data-driven student–mentor matching based on academic needs and mentor suitability.**
+
+### **Core Workflow**
+
+> **Academic Data → Analytics → Risk Detection → Learning Gap Detection → Mentor Matching → Mentor Assignment → Intervention → Performance Tracking**
 
 ---
 
-# 📄 License
-
-This project is intended for educational, research, and institutional analytics purposes.
-
-Add your preferred license here, such as **MIT License**, if applicable.
-
----
-
-# ⭐ Support
-
-If you find this project useful:
-
-⭐ Star the repository
-🍴 Fork the repository
-🐛 Report issues
-💡 Suggest improvements
-🤝 Contribute to the project
-
----
+# ⭐ Final Vision
 
 <p align="center">
-
-### 🎓 Digital Academic Performance Monitoring & Institutional Analytics
-
-**Turning Academic Data into Actionable Intelligence.**
-
+  <strong>Don't Just Track Performance. Understand It. Act on It. Improve It.</strong>
 </p>
+
+<p align="center">
+  🎓 <strong>Monitor</strong> &nbsp; • &nbsp;
+  📊 <strong>Analyze</strong> &nbsp; • &nbsp;
+  🚨 <strong>Detect</strong> &nbsp; • &nbsp;
+  🤝 <strong>Match</strong> &nbsp; • &nbsp;
+  🧭 <strong>Mentor</strong> &nbsp; • &nbsp;
+  📈 <strong>Improve</strong>
+</p>
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
+
+---
+
+## 👨‍💻 Authors
+
+**Academic Project Team — ABC Institution**
+
+> Building technology for smarter academic decision-making and better student outcomes.
